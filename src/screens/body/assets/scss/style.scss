@@ -1,0 +1,21 @@
+.body {
+    margin: 15px auto;
+    width: 100%;
+    display: table;
+
+    .content {
+        margin: 0 auto;
+    }
+
+    .title-chart {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.body {
+    @media (min-width: 800px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

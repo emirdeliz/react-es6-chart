@@ -1,0 +1,29 @@
+@import "variables.scss";
+@import "../../../node_modules/bulma/bulma.sass";
+@import "../../screens/body/assets/scss/style.scss";
+@import "../../screens/chart/assets/scss/style.scss";
+@import "../../screens/header/assets/scss/style.scss";
+@import "../../screens/footer/assets/scss/style.scss";
+
+@font-face {
+    font-family: "proximanova-regular";
+    src: url("../webfonts/proximanova-regular.woff");
+}
+
+@font-face {
+    font-family: "proximanovacond-regular";
+    src: url("../webfonts/proximanovacond-regular.woff");
+}
+
+html,
+body {
+    height: 100%;
+    font-family: proximanova-regular !important;
+    background-color: $white;
+}
+
+html * {
+    @media (max-width: 800px) {
+        font-size: 8px !important;
+    }
+}

@@ -1,0 +1,16 @@
+.header {
+    background-color: $blue-dark;
+
+    .title, .fa {
+        color: $white;
+        margin: auto;
+    }
+
+    .fa-pie-chart {
+        margin-right: 10px;
+    }
+
+    .container {
+        height: 50px;
+    }
+}
