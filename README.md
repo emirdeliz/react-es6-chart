@@ -1,4 +1,4 @@
-# Aplicação desenvolvida para estudar graficos com react
+# Aplicação desenvolvida para estudar gráficos com react
 
 [![Build Status](https://travis-ci.org/emirdeliz/react-es6-chart.svg?branch=master)](https://travis-ci.org/emirdeliz/react-es6-chart)
 
